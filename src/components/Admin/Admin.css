@@ -1,0 +1,41 @@
+header {
+    border-bottom: 2px solid black;
+    margin: 0px;
+}
+
+header h4 {
+    margin: 0px 0px 0px 5px;
+    text-align: left;
+}
+
+.admin-container {
+    margin: 15px
+}
+
+.tab-content {
+    border: 1px solid #dee2e6;
+}
+
+.nav-item .nav-link {
+    border-top: none;
+    border: 1px solid #dee2e6;
+}
+
+.btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    border-radius: 35px;
+    font-size: 24px;
+    line-height: 1.33;
+}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+}

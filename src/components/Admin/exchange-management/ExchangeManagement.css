@@ -1,0 +1,12 @@
+.exchange-header {
+    margin: 20px 20px 0px 20px;
+    display: flex;
+}
+
+.exchange-header>* {
+    margin-right: 15px;
+}
+
+#exchange-grid {
+    margin: 0px 20px 20px 20px;
+}
