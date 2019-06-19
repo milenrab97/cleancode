@@ -1,0 +1,67 @@
+{
+  "name": "phase3-exchange",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@reach/router": "^1.2.1",
+    "@redux-saga/types": "^1.0.2",
+    "@types/enzyme": "^3.9.2",
+    "@types/enzyme-adapter-react-16": "^1.0.5",
+    "@types/enzyme-to-json": "^1.5.3",
+    "@types/jest": "^24.0.11",
+    "@types/node": "11.13.0",
+    "@types/reach__router": "^1.2.3",
+    "@types/react": "16.8.12",
+    "@types/react-dom": "16.8.3",
+    "@types/react-loader": "^2.4.3",
+    "@types/react-redux": "^7.0.8",
+    "@types/react-router-dom": "^4.3.1",
+    "ag-grid-community": "^20.2.0",
+    "ag-grid-react": "^20.2.0",
+    "axios": "^0.18.0",
+    "bootstrap": "^4.3.1",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.13.0",
+    "enzyme-to-json": "^3.3.5",
+    "jest": "23.6.0",
+    "jest-cli": "^23.6.0",
+    "jest-junit": "^6.4.0",
+    "react": "^16.8.6",
+    "react-bootstrap": "^1.0.0-beta.6",
+    "react-bootstrap-switch": "^15.5.3",
+    "react-dom": "^16.8.6",
+    "react-icons": "^3.5.0",
+    "react-loader": "^2.4.5",
+    "react-router": "^5.0.0",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "2.1.8",
+    "react-switch": "^4.1.0",
+    "react-toggle-switch": "^3.0.4",
+    "redux-saga": "^1.0.2",
+    "redux-saga-test-plan": "^4.0.0-beta.3",
+    "typescript": "3.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "test": "npm run test:unit",
+    "test:unit": "jest --coverage --config jest/jest.config.js",
+    "test:unit:verbose": "jest --coverage --runInBand --verbose --updateSnapshot --config jest/jest.config.js",
+    "test:unit:watch": "jest --runInBand --verbose --watch --updateSnapshot --config jest/jest.config.js",
+    "test:unit:debug": "node jest/test.debug.js"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "react-redux": "^7.0.2",
+    "redux": "^4.0.1"
+  }
+}
