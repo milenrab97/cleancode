@@ -13,3 +13,9 @@ export interface Client {
     profit: number;
 }
 
+export interface ExchangeInfo {
+    totalInstruments: number,
+    totalBuyOrders: number,
+    totalSellOrders: number,
+    totalTrades: number
+}

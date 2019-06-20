@@ -5,7 +5,25 @@ import { receiveClientsData, requestClientsData } from "../actions/admin";
 import { REQUEST_CLIENTS_DATA, DELETE_CLIENT, ADD_CLIENT } from "../constants/admin";
 
 export const fetchClientsData = () => {
-    return axios.get(`${API_URL}/client/`);
+    // return axios.get(`${API_URL}/client/`);
+    return {
+        data: [
+            {
+                id: '1',
+                firstName: 'Ivan',
+                lastName: 'Ivanov',
+                funds: 130,
+                profit: 10,
+            },
+            {
+                id: '2',
+                firstName: 'Petko',
+                lastName: 'Petkov',
+                funds: 260,
+                profit: 60,
+            },
+        ]
+    }
 };
 
 export function* requestClientsDataWorker() {

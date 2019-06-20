@@ -15,10 +15,11 @@ import {
   exchangeInfoSelector
 } from "../../../reducers/exchange";
 import { bindActionCreators } from "redux";
+import { ExchangeInfo } from "../../../contracts/global";
 
 export interface ExchangeManagementProps {
   isExchangeOpen: boolean;
-  exchangeInfo: any;
+  exchangeInfo: ExchangeInfo;
   requestExchangeStatus(): void;
   openExchange(): void;
   closeExchange(): void;

@@ -61,7 +61,15 @@ export function* closeExchangeWatcher() {
 }
 
 const fetchExhangeDataAsync = () => {
-    return axios.get(`${API_URL}/exchange`);
+    // return axios.get(`${API_URL}/exchange`);
+    return {
+        data: {
+            totalInstruments: 1,
+            totalBuyOrders: 2,
+            totalSellOrders: 3,
+            totalTrades: 4,
+        }
+    }
 };
 
 function* requestExchangeDataWorker() {
