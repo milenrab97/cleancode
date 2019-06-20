@@ -2,7 +2,6 @@ import React from "react";
 import PropTypes from "prop-types";
 import { columnDef } from "../../contracts/global";
 
-
 export interface TableRowProps {
   currentRow: any;
   columnDefs: columnDef[];
