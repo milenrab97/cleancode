@@ -15,10 +15,6 @@ module.exports = {
   coveragePathIgnorePatterns: [
     "/node_modules/",
     "/jest/"
-    // 'CompareModelVersionsAllocationsTable',
-    // 'ModelDetailsTable',
-    // 'ModelsListTable',
-    // 'NumericEditor',
   ],
   setupFilesAfterEnv: ["<rootDir>/jest/enzyme-test-setup.js"],
   displayName: "unit",
