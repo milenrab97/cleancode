@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import TableHeader from "./TableHeader";
 import TableBody from "./TableBody";
-import { columnDef } from "../../contracts/table";
+import { columnDef } from "../../contracts/global";
 
 export interface TableProps {
   columnDefs: columnDef[];
